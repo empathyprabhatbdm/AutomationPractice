@@ -14,7 +14,7 @@ describe('Send an email to a user', () => {
         })
     })
 
-    it('Basic login and test', function() {
+    it.skip('Basic login and test', function() {
         login.login(this.credentials.username, this.credentials.password);
         cy.wait(200);
         login.verifyUserLoggedIn(this.credentials.loggedInUsername);
