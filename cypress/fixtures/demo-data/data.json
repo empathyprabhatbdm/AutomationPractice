@@ -1,0 +1,11 @@
+{
+    "username": "prabhat.jha@tekkon.com.np",
+    "password": "Prabhat@123",
+    "wrongUsername": "Prabhat@123",
+    "wrongPassword": "prabhat.jha@tekkon.com.np",
+    "loggedInUsername": "Prabhat Bikram Singh Jha",
+    "errorMessage": "The username or password is incorrect. Verify that CAPS LOCK is not on, and then retype the current username and password.",
+    "sendTo": "empathy.prabhat.bdm@gmail.com",
+    "subject": "Test Subject",
+    "emailContent": "This is a test email. Please do not reply"
+}
