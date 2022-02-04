@@ -3,14 +3,14 @@
     "suites": 1,
     "tests": 1,
     "passes": 0,
-    "pending": 0,
-    "failures": 1,
-    "start": "2022-02-02T04:25:19.825Z",
-    "end": "2022-02-02T04:26:06.566Z",
-    "duration": 46741,
+    "pending": 1,
+    "failures": 0,
+    "start": "2022-02-04T13:52:57.754Z",
+    "end": "2022-02-04T13:52:57.764Z",
+    "duration": 10,
     "testsRegistered": 1,
-    "passPercent": 0,
-    "pendingPercent": 0,
+    "passPercent": null,
+    "pendingPercent": 100,
     "other": 0,
     "hasOther": false,
     "skipped": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "8181e6a6-de47-459f-8a7e-0e88dc935951",
+      "uuid": "5b9625d0-160c-4f32-a7c6-a2c63aa58f19",
       "title": "",
       "fullFile": "cypress/integration/Tekkon/send-email.spec.js",
       "file": "cypress/integration/Tekkon/send-email.spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "fa332dea-0af4-4fab-ab51-e1357c1097c2",
+          "uuid": "709e6735-f16c-45a4-80a2-5bc1725103d5",
           "title": "Send an email to a user",
           "fullFile": "",
           "file": "",
@@ -38,33 +38,29 @@
               "title": "Basic login and test",
               "fullTitle": "Send an email to a user Basic login and test",
               "timedOut": null,
-              "duration": 45435,
-              "state": "failed",
+              "duration": 0,
+              "state": "pending",
               "speed": null,
               "pass": false,
-              "fail": true,
-              "pending": false,
+              "fail": false,
+              "pending": true,
               "context": null,
-              "code": "login.login(this.credentials.username, this.credentials.password);\ncy.wait(200);\nlogin.verifyUserLoggedIn(this.credentials.loggedInUsername);\nsendEmail.createNewEmail(this.credentials.sendTo, this.credentials.subject, this.credentials.emailContent);\nsendEmail.verifyMessageSent(this.credentials.sendTo);\ncy.wait(500);\nlogout.logoutDropdown();\nlogout.verifyUserLoggedOut();",
-              "err": {
-                "message": "CypressError: `cy.screenshot()` timed out waiting `30000ms` to complete.",
-                "estack": "CypressError: `cy.screenshot()` timed out waiting `30000ms` to complete.\n    at http://mail.tekkon.com.np/__cypress/runner/cypress_runner.js:160456:81\n    at tryCatcher (http://mail.tekkon.com.np/__cypress/runner/cypress_runner.js:13196:23)\n    at http://mail.tekkon.com.np/__cypress/runner/cypress_runner.js:8318:41\n    at tryCatcher (http://mail.tekkon.com.np/__cypress/runner/cypress_runner.js:13196:23)\n    at Promise._settlePromiseFromHandler (http://mail.tekkon.com.np/__cypress/runner/cypress_runner.js:11131:31)\n    at Promise._settlePromise (http://mail.tekkon.com.np/__cypress/runner/cypress_runner.js:11188:18)\n    at Promise._settlePromise0 (http://mail.tekkon.com.np/__cypress/runner/cypress_runner.js:11233:10)\n    at Promise._settlePromises (http://mail.tekkon.com.np/__cypress/runner/cypress_runner.js:11309:18)\n    at _drainQueueStep (http://mail.tekkon.com.np/__cypress/runner/cypress_runner.js:7903:12)\n    at _drainQueue (http://mail.tekkon.com.np/__cypress/runner/cypress_runner.js:7896:9)\n    at Async.../../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://mail.tekkon.com.np/__cypress/runner/cypress_runner.js:7912:5)\n    at Async.drainQueues (http://mail.tekkon.com.np/__cypress/runner/cypress_runner.js:7782:14)",
-                "diff": null
-              },
-              "uuid": "3da86a11-88be-423d-a72e-79d33f3f4582",
-              "parentUUID": "fa332dea-0af4-4fab-ab51-e1357c1097c2",
+              "code": "",
+              "err": {},
+              "uuid": "72fae486-77be-4cd0-b55e-bd1038ab868e",
+              "parentUUID": "709e6735-f16c-45a4-80a2-5bc1725103d5",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [],
-          "failures": [
-            "3da86a11-88be-423d-a72e-79d33f3f4582"
+          "failures": [],
+          "pending": [
+            "72fae486-77be-4cd0-b55e-bd1038ab868e"
           ],
-          "pending": [],
           "skipped": [],
-          "duration": 45435,
+          "duration": 0,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
